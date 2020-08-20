@@ -35,17 +35,17 @@ if response == "Call 911":
     Run downstairs
     Get to your car ASAP
     ''')
-    if response == "Run downstairs"
+    if response == "Run downstairs":
         response == input('''
-        You open your aparment door. You check the hallway for any stray zombies. 
+        You open your apartment door. You check the hallway for any stray zombies. 
         You can either:
         Go down via the elevator
         Go down via the stairs
         Get to the car instead
         ''')
-    elif response == "Get to your car ASAP"
+    elif response == "Get to your car ASAP":
         response == input('''
-        You gather your valuables, grab your family photos (you dont feel like leaving them behind), open your 
+        You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
         apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
         smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
         ''')
