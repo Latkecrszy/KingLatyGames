@@ -1,3 +1,7 @@
+#Error code =
+#elif response == input('''
+#Incorrect answer! Please copy and paste the answer correctly
+#''')
 print('''This game is a text adventure game made to test your general knowledge, critical thinking, and problem solving abilities. To answer
 the questions that will pop up during the game, copy and paste the given choices next to the question.
       ''')
@@ -43,9 +47,30 @@ if response == "Call 911":
         Go down via the stairs
         Get to the car instead
         ''')
+        if response == "Go down via the elevator":
+            response == input('''
+            Coming soon!
+            ''')
+        elif response == "Go down via the stairs":
+            response == input('''
+            Coming soon!
+            ''')
+        elif response == "Get to the car instead":
+            response == input('''
+            Coming soon!
+            ''')
     elif response == "Get to your car ASAP":
         response == input('''
         You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
         apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
         smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
         ''')
+elif response == "Run dowstairs to investigate":
+    response == input('''
+    Coming soon!
+    ''')
+elif response == "Get to your car ASAP":
+    response == input('''
+    Coming soon!
+    ''')
+#insert error message code here
