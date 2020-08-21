@@ -9,7 +9,7 @@ the questions that will pop up during the game, copy and paste the given choices
 print("If there are any problems with this game, please email the maker of this game at akronnie55@gmail.com")
 name = input("What is your name? This information is used for game purposes only and it will not be recorded. ")
 print('''
-Greetings, " + name + ". You live in an apartment building near Toronto, Canada. You work as a mechanic,
+Greetings! You live in an apartment building near Toronto, Canada. You work as a mechanic,
 you're skilled at rock climbing, and your hobby is racing. Your life has been amazing until August 17, during 
 the night, at around 11 PM...
 ''')
