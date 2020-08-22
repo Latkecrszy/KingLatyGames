@@ -73,7 +73,7 @@ if response == "Call 911":
             else:
                 print("Incorrect answer, you died")
                 quit()
-        elif response == "Go down via the stairs":
+        if response == "Go down via the stairs":
             response == input('''
             You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
             zombies, and you die a quick, painless death.
