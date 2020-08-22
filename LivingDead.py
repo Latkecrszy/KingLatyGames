@@ -1,5 +1,5 @@
-#Error code =
-#else:
+# Error code =
+# else:
 #   print("Incorrect answer, you died")
 # quit()
 
@@ -30,7 +30,6 @@ Do you:
 Call 911
 Run downstairs to investigate
 Climb down to your car
-
 ''')
 if response == "Call 911":
     response = input('''
@@ -40,32 +39,32 @@ if response == "Call 911":
     Do you:
     Run downstairs
     Get to your car ASAP
-    
+
     ''')
     if response == "Run downstairs":
-        response == input('''
+        response = input('''
         You open your apartment door. You check the hallway for any stray zombies. 
         You can either:
         Go down via the elevator
         Go down via the stairs
         Get to the car instead
-        
+
         ''')
         if response == "Go down via the elevator":
-            response == input('''
+            response = input('''
             You press the elevator button, but nothing works, because the zombies cut out the power. What do you do? Do you:
             Go down via the stairs
             Get to the car instead
-            
+
             ''')
             if response == "Go down via the stairs":
-                response == input('''
+                response = input('''
                         You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
                         zombies, and you die a quick, painless death.
                         ''')
                 quit()
             elif response == "Get to the car instead":
-                response == input('''
+                response = input('''
                            You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
                            apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
                            smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
@@ -74,13 +73,13 @@ if response == "Call 911":
                 print("Incorrect answer, you died")
                 quit()
         elif response == "Go down via the stairs":
-            response == input('''
+            response = input('''
             You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
             zombies, and you die a quick, painless death.
             ''')
             quit()
         elif response == "Get to the car instead":
-            response == input('''
+            response = input('''
                    You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
                    apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
                    smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
@@ -89,7 +88,7 @@ if response == "Call 911":
             print("Incorrect answer, you died")
             quit()
     elif response == "Get to your car ASAP":
-        response == input('''
+        response = input('''
         You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
         apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
         smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
@@ -98,27 +97,26 @@ if response == "Call 911":
         print("Incorrect answer, you died")
         quit()
 elif response == "Run downstairs to investigate":
-    response == input('''
+    response = input('''
     You open your apartment door and check the hall for stray zombies. Do you:
     Go down via the elevator
     Go down via the stairs
     Get to the car instead
     ''')
     if response == "Go down via the elevator":
-        response == input('''
+        response = input('''
         You press the elevator button, but nothing works, because the zombies cut out the power. What do you do? Do you:
         Go down via the stairs
         Get to the car instead
-
         ''')
     elif response == "Go down via the stairs":
-        response == input('''
+        response = input('''
         You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
         zombies, and you die a quick, painless death.
         ''')
         quit()
     elif response == "Get to the car instead":
-        response == input('''
+        response = input('''
                You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
                apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
                smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
@@ -127,12 +125,12 @@ elif response == "Run downstairs to investigate":
         print("Incorrect answer, you died")
         quit()
 elif response == "Climb down to your car":
-    response == input('''
+    response = input('''
     You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
         apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
         smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
     ''')
-    #insert 3 options and paths
+    # insert 3 options and paths
 else:
     print("Incorrect answer, you died")
     quit()
