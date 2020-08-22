@@ -1,7 +1,12 @@
-#Error code =
-#else:
-#   print("Incorrect answer, you died")
-# quit()
+def carEscape():
+    response == input('''
+        You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
+        apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
+        smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
+        ''')
+def incorrectAnswer():
+    print("Incorrect answer, you died")
+    quit()
 
 print('''This game is a text adventure game made to test your general knowledge, critical thinking, and problem solving abilities. To answer
 the questions that will pop up during the game, copy and paste the given choices next to the question.
@@ -65,14 +70,9 @@ if response == "Call 911":
                         ''')
                 quit()
             elif response == "Get to the car instead":
-                response == input('''
-                           You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
-                           apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
-                           smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
-                           ''')
+                carEscape()
             else:
-                print("Incorrect answer, you died")
-                quit()
+                incorrectAnswer()
         if response == "Go down via the stairs":
             response == input('''
             You try to climb down the stairs, but the zombies rush up the stairs at eye-blurring speed. You are ambushed by a horde of hungry, bloodthirsty
@@ -80,23 +80,13 @@ if response == "Call 911":
             ''')
             quit()
         elif response == "Get to the car instead":
-            response == input('''
-                   You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
-                   apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
-                   smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
-                   ''')
+            carEscape()
         else:
-            print("Incorrect answer, you died")
-            quit()
+            incorrectAnswer()
     elif response == "Get to your car ASAP":
-        response == input('''
-        You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
-        apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
-        smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
-        ''')
+        carEscape()
     else:
-        print("Incorrect answer, you died")
-        quit()
+        incorrectAnswer()
 elif response == "Run downstairs to investigate":
     response == input('''
     You open your apartment door and check the hall for stray zombies. Do you:
@@ -118,21 +108,10 @@ elif response == "Run downstairs to investigate":
         ''')
         quit()
     elif response == "Get to the car instead":
-        response == input('''
-               You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
-               apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
-               smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
-               ''')
+        carEscape()
     else:
-        print("Incorrect answer, you died")
-        quit()
+        incorrectAnswer()
 elif response == "Climb down to your car":
-    response == input('''
-    You gather your valuables, grab your family photos (you don't feel like leaving them behind), open your 
-        apartment window and casually climb down to the first floor. The zombies can't see you leave, but they 
-        smell flesh, so you quickly open your car door, hop in the driver seat, and drive away.
-    ''')
-    #insert 3 options and paths
+    carEscape()
 else:
-    print("Incorrect answer, you died")
-    quit()
+    incorrectAnswer()
